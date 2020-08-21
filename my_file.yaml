@@ -1,0 +1,9 @@
+names:
+- Ivanov
+- Sidorov
+- Petrov
+quantity: 3
+salary:
+  junior: 130ˆ
+  middle: 300ˆ
+  senior: 450ˆ
