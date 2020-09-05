@@ -1,0 +1,681 @@
+2020-09-05 14:49:16,568    CRITICAL   config_sever_log Тест журнала критических ошибок
+2020-09-05 14:49:16,573    ERROR      config_sever_log Тест журнала обычных ошибок ошибок
+2020-09-05 14:49:16,573    DEBUG      config_sever_log Тест журнала отладки
+2020-09-05 14:49:16,573    INFO       config_sever_log Тест журнала уведомлений
+2020-09-05 14:54:06,027    INFO       server Запуск сервера...
+2020-09-05 14:54:06,027    DEBUG      server Проверка входных параметров: порт...
+2020-09-05 14:54:06,027    DEBUG      server Проверка порта прошла успешно
+2020-09-05 14:54:06,027    DEBUG      server Проверка входных параметров: хост...
+2020-09-05 14:54:06,032    DEBUG      server Проверка хоста прошла успешно
+2020-09-05 14:54:06,033    INFO       server Сервер запущен и готов принимать запрос клиента.
+Порт сервера: 8888
+Адрес сервера: 192.168.0.107
+2020-09-05 15:10:45,532    INFO       server Запуск сервера...
+2020-09-05 15:10:45,532    DEBUG      server Проверка входных параметров: порт...
+2020-09-05 15:10:45,532    DEBUG      server Проверка порта прошла успешно
+2020-09-05 15:10:45,532    DEBUG      server Проверка входных параметров: хост...
+2020-09-05 15:10:45,532    DEBUG      server Проверка хоста прошла успешно
+2020-09-05 15:10:45,533    INFO       server Сервер запущен и готов принимать запрос клиента.
+Порт сервера: 8888
+Адрес сервера: 192.168.0.107
+2020-09-05 15:11:23,162    DEBUG      server Установлено соединение с клиентом...
+2020-09-05 15:11:23,163    DEBUG      server Получено сообщение:
+{'action': 'presence', 'time': 1599307883.1620693, 'user': {'account_name': 'Guest'}}
+2020-09-05 15:11:23,163    DEBUG      server Запуск функции формирования ответа сервера...
+2020-09-05 15:11:23,163    DEBUG      server Сообщение клиента соответствует JIM-протоколу. Формируем положительный ответ.
+2020-09-05 15:11:23,167    DEBUG      log_decorator Идет вызов функции.
+Имя: server_ans_func
+Позиционные аргументы: ({'action': 'presence', 'time': 1599307883.1620693, 'user': {'account_name': 'Guest'}},)
+Именованные аргументы: {}
+Функция-родитель: [FrameInfo(frame=<frame at 0x000001EA76542A48, file 'C:\\repository_Tikhonov\\python_client_server_app\\les6_hw_Tikhonov\\log_decorator.py', line 23, code decorated>, filename='C:\\repository_Tikhonov\\python_client_server_app\\les6_hw_Tikhonov\\log_decorator.py', lineno=23, function='decorated', code_context=["            my_logger.debug(f'Идет вызов функции.\\n'\n"], index=0), FrameInfo(frame=<frame at 0x000001EA76354598, file 'C:/repository_Tikhonov/python_client_server_app/les6_hw_Tikhonov/server.py', line 90, code main>, filename='C:/repository_Tikhonov/python_client_server_app/les6_hw_Tikhonov/server.py', lineno=90, function='main', code_context=['            server_ans = server_ans_func(client_msg)\n'], index=0), FrameInfo(frame=<frame at 0x000001EA760F1428, file 'C:/repository_Tikhonov/python_client_server_app/les6_hw_Tikhonov/server.py', line 103, code <module>>, filename='C:/repository_Tikhonov/python_client_server_app/les6_hw_Tikhonov/server.py', lineno=103, function='<module>', code_context=['    main()\n'], index=0)]
+
+2020-09-05 15:11:23,167    DEBUG      server Сформирован ответ сервера:
+{'response': 200}
+2020-09-05 15:11:23,167    DEBUG      server Ответ выслан клиенту.
+2020-09-05 15:11:23,167    DEBUG      server Соединение с клиентом закрыто.
+2020-09-05 15:15:28,688    INFO       server Запуск сервера...
+2020-09-05 15:15:28,689    DEBUG      server Проверка входных параметров: порт...
+2020-09-05 15:15:28,689    DEBUG      server Проверка порта прошла успешно
+2020-09-05 15:15:28,689    DEBUG      server Проверка входных параметров: хост...
+2020-09-05 15:15:28,689    DEBUG      server Проверка хоста прошла успешно
+2020-09-05 15:15:28,689    INFO       server Сервер запущен и готов принимать запрос клиента.
+Порт сервера: 8888
+Адрес сервера: 192.168.0.107
+2020-09-05 15:15:36,882    DEBUG      server Установлено соединение с клиентом...
+2020-09-05 15:15:36,887    DEBUG      log_decorator Идет вызов функции.
+Имя: client_msg_func
+Позиционные аргументы: ()
+Именованные аргументы: {}
+Функция-родитель: [FrameInfo(frame=<frame at 0x000001C6617BC448, file 'C:\\repository_Tikhonov\\python_client_server_app\\les6_hw_Tikhonov\\log_decorator.py', line 23, code decorated>, filename='C:\\repository_Tikhonov\\python_client_server_app\\les6_hw_Tikhonov\\log_decorator.py', lineno=23, function='decorated', code_context=["            my_logger.debug(f'Идет вызов функции.\\n'\n"], index=0), FrameInfo(frame=<frame at 0x000001C661550A18, file 'C:/repository_Tikhonov/python_client_server_app/les6_hw_Tikhonov/client.py', line 97, code main>, filename='C:/repository_Tikhonov/python_client_server_app/les6_hw_Tikhonov/client.py', lineno=97, function='main', code_context=['    client_msg = client_msg_func()\n'], index=0), FrameInfo(frame=<frame at 0x000001C6612F1428, file 'C:/repository_Tikhonov/python_client_server_app/les6_hw_Tikhonov/client.py', line 120, code <module>>, filename='C:/repository_Tikhonov/python_client_server_app/les6_hw_Tikhonov/client.py', lineno=120, function='<module>', code_context=['    main()\n'], index=0)]
+
+2020-09-05 15:15:36,888    DEBUG      log_decorator Идет вызов функции.
+Имя: msg_send_func
+Позиционные аргументы: ({'action': 'presence', 'time': 1599308136.8837998, 'user': {'account_name': 'Guest'}}, <socket.socket fd=448, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.0.107', 61213), raddr=('192.168.0.107', 8888)>)
+Именованные аргументы: {}
+Функция-родитель: [FrameInfo(frame=<frame at 0x000001C6617BC448, file 'C:\\repository_Tikhonov\\python_client_server_app\\les6_hw_Tikhonov\\log_decorator.py', line 23, code decorated>, filename='C:\\repository_Tikhonov\\python_client_server_app\\les6_hw_Tikhonov\\log_decorator.py', lineno=23, function='decorated', code_context=["            my_logger.debug(f'Идет вызов функции.\\n'\n"], index=0), FrameInfo(frame=<frame at 0x000001C661550A18, file 'C:/repository_Tikhonov/python_client_server_app/les6_hw_Tikhonov/client.py', line 99, code main>, filename='C:/repository_Tikhonov/python_client_server_app/les6_hw_Tikhonov/client.py', lineno=99, function='main', code_context=['    msg_send_func(client_msg, server_sock)\n'], index=0), FrameInfo(frame=<frame at 0x000001C6612F1428, file 'C:/repository_Tikhonov/python_client_server_app/les6_hw_Tikhonov/client.py', line 120, code <module>>, filename='C:/repository_Tikhonov/python_client_server_app/les6_hw_Tikhonov/client.py', lineno=120, function='<module>', code_context=['    main()\n'], index=0)]
+
+2020-09-05 15:15:36,892    DEBUG      log_decorator Идет вызов функции.
+Имя: msg_recv_func
+Позиционные аргументы: (<socket.socket fd=352, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.0.107', 8888), raddr=('192.168.0.107', 61213)>,)
+Именованные аргументы: {}
+Функция-родитель: [FrameInfo(frame=<frame at 0x00000299A118FA48, file 'C:\\repository_Tikhonov\\python_client_server_app\\les6_hw_Tikhonov\\log_decorator.py', line 23, code decorated>, filename='C:\\repository_Tikhonov\\python_client_server_app\\les6_hw_Tikhonov\\log_decorator.py', lineno=23, function='decorated', code_context=["            my_logger.debug(f'Идет вызов функции.\\n'\n"], index=0), FrameInfo(frame=<frame at 0x00000299A0FA3A98, file 'C:/repository_Tikhonov/python_client_server_app/les6_hw_Tikhonov/server.py', line 88, code main>, filename='C:/repository_Tikhonov/python_client_server_app/les6_hw_Tikhonov/server.py', lineno=88, function='main', code_context=['            client_msg = msg_recv_func(client_sock)\n'], index=0), FrameInfo(frame=<frame at 0x00000299A0D41428, file 'C:/repository_Tikhonov/python_client_server_app/les6_hw_Tikhonov/server.py', line 103, code <module>>, filename='C:/repository_Tikhonov/python_client_server_app/les6_hw_Tikhonov/server.py', lineno=103, function='<module>', code_context=['    main()\n'], index=0)]
+
+2020-09-05 15:15:36,892    DEBUG      server Получено сообщение:
+{'action': 'presence', 'time': 1599308136.8837998, 'user': {'account_name': 'Guest'}}
+2020-09-05 15:15:36,892    DEBUG      server Запуск функции формирования ответа сервера...
+2020-09-05 15:15:36,892    DEBUG      server Сообщение клиента соответствует JIM-протоколу. Формируем положительный ответ.
+2020-09-05 15:15:36,892    DEBUG      log_decorator Идет вызов функции.
+Имя: server_ans_func
+Позиционные аргументы: ({'action': 'presence', 'time': 1599308136.8837998, 'user': {'account_name': 'Guest'}},)
+Именованные аргументы: {}
+Функция-родитель: [FrameInfo(frame=<frame at 0x00000299A118FA48, file 'C:\\repository_Tikhonov\\python_client_server_app\\les6_hw_Tikhonov\\log_decorator.py', line 23, code decorated>, filename='C:\\repository_Tikhonov\\python_client_server_app\\les6_hw_Tikhonov\\log_decorator.py', lineno=23, function='decorated', code_context=["            my_logger.debug(f'Идет вызов функции.\\n'\n"], index=0), FrameInfo(frame=<frame at 0x00000299A0FA3A98, file 'C:/repository_Tikhonov/python_client_server_app/les6_hw_Tikhonov/server.py', line 90, code main>, filename='C:/repository_Tikhonov/python_client_server_app/les6_hw_Tikhonov/server.py', lineno=90, function='main', code_context=['            server_ans = server_ans_func(client_msg)\n'], index=0), FrameInfo(frame=<frame at 0x00000299A0D41428, file 'C:/repository_Tikhonov/python_client_server_app/les6_hw_Tikhonov/server.py', line 103, code <module>>, filename='C:/repository_Tikhonov/python_client_server_app/les6_hw_Tikhonov/server.py', lineno=103, function='<module>', code_context=['    main()\n'], index=0)]
+
+2020-09-05 15:15:36,892    DEBUG      server Сформирован ответ сервера:
+{'response': 200}
+2020-09-05 15:15:36,893    DEBUG      log_decorator Идет вызов функции.
+Имя: msg_recv_func
+Позиционные аргументы: (<socket.socket fd=448, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.0.107', 61213), raddr=('192.168.0.107', 8888)>,)
+Именованные аргументы: {}
+Функция-родитель: [FrameInfo(frame=<frame at 0x000001C6617BC448, file 'C:\\repository_Tikhonov\\python_client_server_app\\les6_hw_Tikhonov\\log_decorator.py', line 23, code decorated>, filename='C:\\repository_Tikhonov\\python_client_server_app\\les6_hw_Tikhonov\\log_decorator.py', lineno=23, function='decorated', code_context=["            my_logger.debug(f'Идет вызов функции.\\n'\n"], index=0), FrameInfo(frame=<frame at 0x000001C661550A18, file 'C:/repository_Tikhonov/python_client_server_app/les6_hw_Tikhonov/client.py', line 102, code main>, filename='C:/repository_Tikhonov/python_client_server_app/les6_hw_Tikhonov/client.py', lineno=102, function='main', code_context=['        server_ans = msg_recv_func(server_sock)\n'], index=0), FrameInfo(frame=<frame at 0x000001C6612F1428, file 'C:/repository_Tikhonov/python_client_server_app/les6_hw_Tikhonov/client.py', line 120, code <module>>, filename='C:/repository_Tikhonov/python_client_server_app/les6_hw_Tikhonov/client.py', lineno=120, function='<module>', code_context=['    main()\n'], index=0)]
+
+2020-09-05 15:15:36,893    DEBUG      log_decorator Идет вызов функции.
+Имя: msg_send_func
+Позиционные аргументы: ({'response': 200}, <socket.socket fd=352, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.0.107', 8888), raddr=('192.168.0.107', 61213)>)
+Именованные аргументы: {}
+Функция-родитель: [FrameInfo(frame=<frame at 0x00000299A118FA48, file 'C:\\repository_Tikhonov\\python_client_server_app\\les6_hw_Tikhonov\\log_decorator.py', line 23, code decorated>, filename='C:\\repository_Tikhonov\\python_client_server_app\\les6_hw_Tikhonov\\log_decorator.py', lineno=23, function='decorated', code_context=["            my_logger.debug(f'Идет вызов функции.\\n'\n"], index=0), FrameInfo(frame=<frame at 0x00000299A0FA3A98, file 'C:/repository_Tikhonov/python_client_server_app/les6_hw_Tikhonov/server.py', line 92, code main>, filename='C:/repository_Tikhonov/python_client_server_app/les6_hw_Tikhonov/server.py', lineno=92, function='main', code_context=['            msg_send_func(server_ans, client_sock)\n'], index=0), FrameInfo(frame=<frame at 0x00000299A0D41428, file 'C:/repository_Tikhonov/python_client_server_app/les6_hw_Tikhonov/server.py', line 103, code <module>>, filename='C:/repository_Tikhonov/python_client_server_app/les6_hw_Tikhonov/server.py', lineno=103, function='<module>', code_context=['    main()\n'], index=0)]
+
+2020-09-05 15:15:36,896    DEBUG      server Ответ выслан клиенту.
+2020-09-05 15:15:36,896    DEBUG      server Соединение с клиентом закрыто.
+2020-09-05 15:15:36,898    DEBUG      log_decorator Идет вызов функции.
+Имя: ans_rework_func
+Позиционные аргументы: ({'response': 200},)
+Именованные аргументы: {}
+Функция-родитель: [FrameInfo(frame=<frame at 0x000001C6617BC448, file 'C:\\repository_Tikhonov\\python_client_server_app\\les6_hw_Tikhonov\\log_decorator.py', line 23, code decorated>, filename='C:\\repository_Tikhonov\\python_client_server_app\\les6_hw_Tikhonov\\log_decorator.py', lineno=23, function='decorated', code_context=["            my_logger.debug(f'Идет вызов функции.\\n'\n"], index=0), FrameInfo(frame=<frame at 0x000001C661550A18, file 'C:/repository_Tikhonov/python_client_server_app/les6_hw_Tikhonov/client.py', line 104, code main>, filename='C:/repository_Tikhonov/python_client_server_app/les6_hw_Tikhonov/client.py', lineno=104, function='main', code_context=['        server_ans_reworked = ans_rework_func(server_ans)\n'], index=0), FrameInfo(frame=<frame at 0x000001C6612F1428, file 'C:/repository_Tikhonov/python_client_server_app/les6_hw_Tikhonov/client.py', line 120, code <module>>, filename='C:/repository_Tikhonov/python_client_server_app/les6_hw_Tikhonov/client.py', lineno=120, function='<module>', code_context=['    main()\n'], index=0)]
+
+2020-09-05 15:27:18,450    INFO       server Запуск сервера...
+2020-09-05 15:27:18,450    DEBUG      server Проверка входных параметров: порт...
+2020-09-05 15:27:18,450    DEBUG      server Проверка порта прошла успешно
+2020-09-05 15:27:18,450    DEBUG      server Проверка входных параметров: хост...
+2020-09-05 15:27:18,450    DEBUG      server Проверка хоста прошла успешно
+2020-09-05 15:27:18,451    INFO       server Сервер запущен и готов принимать запрос клиента.
+Порт сервера: 8888
+Адрес сервера: 192.168.0.107
+2020-09-05 15:27:40,782    DEBUG      server Установлено соединение с клиентом...
+2020-09-05 15:27:40,787    DEBUG      log_decorator 
+Идет вызов функции.
+Имя: client_msg_func
+Позиционные аргументы: ()
+Именованные аргументы: {}
+Функция-родитель inspect: main
+Функция-родитель traceback: main()
+
+2020-09-05 15:27:40,788    DEBUG      log_decorator 
+Идет вызов функции.
+Имя: msg_send_func
+Позиционные аргументы: ({'action': 'presence', 'time': 1599308860.783193, 'user': {'account_name': 'Guest'}}, <socket.socket fd=424, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.0.107', 61237), raddr=('192.168.0.107', 8888)>)
+Именованные аргументы: {}
+Функция-родитель inspect: main
+Функция-родитель traceback: main()
+
+2020-09-05 15:27:40,791    DEBUG      log_decorator 
+Идет вызов функции.
+Имя: msg_recv_func
+Позиционные аргументы: (<socket.socket fd=536, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.0.107', 8888), raddr=('192.168.0.107', 61237)>,)
+Именованные аргументы: {}
+Функция-родитель inspect: main
+Функция-родитель traceback: main()
+
+2020-09-05 15:27:40,791    DEBUG      server Получено сообщение:
+{'action': 'presence', 'time': 1599308860.783193, 'user': {'account_name': 'Guest'}}
+2020-09-05 15:27:40,791    DEBUG      server Запуск функции формирования ответа сервера...
+2020-09-05 15:27:40,791    DEBUG      server Сообщение клиента соответствует JIM-протоколу. Формируем положительный ответ.
+2020-09-05 15:27:40,792    DEBUG      log_decorator 
+Идет вызов функции.
+Имя: server_ans_func
+Позиционные аргументы: ({'action': 'presence', 'time': 1599308860.783193, 'user': {'account_name': 'Guest'}},)
+Именованные аргументы: {}
+Функция-родитель inspect: main
+Функция-родитель traceback: main()
+
+2020-09-05 15:27:40,792    DEBUG      server Сформирован ответ сервера:
+{'response': 200}
+2020-09-05 15:27:40,793    DEBUG      log_decorator 
+Идет вызов функции.
+Имя: msg_send_func
+Позиционные аргументы: ({'response': 200}, <socket.socket fd=536, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.0.107', 8888), raddr=('192.168.0.107', 61237)>)
+Именованные аргументы: {}
+Функция-родитель inspect: main
+Функция-родитель traceback: main()
+
+2020-09-05 15:27:40,793    DEBUG      server Ответ выслан клиенту.
+2020-09-05 15:27:40,793    DEBUG      log_decorator 
+Идет вызов функции.
+Имя: msg_recv_func
+Позиционные аргументы: (<socket.socket fd=424, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.0.107', 61237), raddr=('192.168.0.107', 8888)>,)
+Именованные аргументы: {}
+Функция-родитель inspect: main
+Функция-родитель traceback: main()
+
+2020-09-05 15:27:40,793    DEBUG      server Соединение с клиентом закрыто.
+2020-09-05 15:27:40,796    DEBUG      log_decorator 
+Идет вызов функции.
+Имя: ans_rework_func
+Позиционные аргументы: ({'response': 200},)
+Именованные аргументы: {}
+Функция-родитель inspect: main
+Функция-родитель traceback: main()
+
+2020-09-05 15:43:06,249    INFO       server Запуск сервера...
+2020-09-05 15:43:06,249    DEBUG      server Проверка входных параметров: порт...
+2020-09-05 15:43:06,249    DEBUG      server Проверка порта прошла успешно
+2020-09-05 15:43:06,249    DEBUG      server Проверка входных параметров: хост...
+2020-09-05 15:43:06,249    DEBUG      server Проверка хоста прошла успешно
+2020-09-05 15:43:06,250    INFO       server Сервер запущен и готов принимать запрос клиента.
+Порт сервера: 8888
+Адрес сервера: 192.168.0.107
+2020-09-05 15:43:14,957    DEBUG      server Установлено соединение с клиентом...
+2020-09-05 15:43:14,961    DEBUG      log_decorator 
+Идет вызов функции.
+Имя: client_msg_func
+Позиционные аргументы: ()
+Именованные аргументы: {}
+Функция-родитель: main
+
+2020-09-05 15:43:14,961    DEBUG      log_decorator 
+Идет вызов функции.
+Имя: msg_send_func
+Позиционные аргументы: ({'action': 'presence', 'time': 1599309794.95709, 'user': {'account_name': 'Guest'}}, <socket.socket fd=340, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.0.107', 61322), raddr=('192.168.0.107', 8888)>)
+Именованные аргументы: {}
+Функция-родитель: main
+
+2020-09-05 15:43:14,965    DEBUG      log_decorator 
+Идет вызов функции.
+Имя: msg_recv_func
+Позиционные аргументы: (<socket.socket fd=360, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.0.107', 8888), raddr=('192.168.0.107', 61322)>,)
+Именованные аргументы: {}
+Функция-родитель: main
+
+2020-09-05 15:43:14,965    DEBUG      server Получено сообщение:
+{'action': 'presence', 'time': 1599309794.95709, 'user': {'account_name': 'Guest'}}
+2020-09-05 15:43:14,965    DEBUG      server Запуск функции формирования ответа сервера...
+2020-09-05 15:43:14,965    DEBUG      server Сообщение клиента соответствует JIM-протоколу. Формируем положительный ответ.
+2020-09-05 15:43:14,965    DEBUG      log_decorator 
+Идет вызов функции.
+Имя: server_ans_func
+Позиционные аргументы: ({'action': 'presence', 'time': 1599309794.95709, 'user': {'account_name': 'Guest'}},)
+Именованные аргументы: {}
+Функция-родитель: main
+
+2020-09-05 15:43:14,966    DEBUG      server Сформирован ответ сервера:
+{'response': 200}
+2020-09-05 15:43:14,966    DEBUG      log_decorator 
+Идет вызов функции.
+Имя: msg_send_func
+Позиционные аргументы: ({'response': 200}, <socket.socket fd=360, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.0.107', 8888), raddr=('192.168.0.107', 61322)>)
+Именованные аргументы: {}
+Функция-родитель: main
+
+2020-09-05 15:43:14,966    DEBUG      server Ответ выслан клиенту.
+2020-09-05 15:43:14,966    DEBUG      log_decorator 
+Идет вызов функции.
+Имя: msg_recv_func
+Позиционные аргументы: (<socket.socket fd=340, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.0.107', 61322), raddr=('192.168.0.107', 8888)>,)
+Именованные аргументы: {}
+Функция-родитель: main
+
+2020-09-05 15:43:14,966    DEBUG      server Соединение с клиентом закрыто.
+2020-09-05 15:43:14,966    DEBUG      log_decorator 
+Идет вызов функции.
+Имя: ans_rework_func
+Позиционные аргументы: ({'response': 200},)
+Именованные аргументы: {}
+Функция-родитель: main
+
+2020-09-05 15:52:53,232    INFO       server Запуск сервера...
+2020-09-05 15:52:53,232    DEBUG      server Проверка входных параметров: порт...
+2020-09-05 15:52:53,232    DEBUG      server Проверка порта прошла успешно
+2020-09-05 15:52:53,232    DEBUG      server Проверка входных параметров: хост...
+2020-09-05 15:52:53,233    DEBUG      server Проверка хоста прошла успешно
+2020-09-05 15:52:53,233    INFO       server Сервер запущен и готов принимать запрос клиента.
+Порт сервера: 8888
+Адрес сервера: 192.168.0.107
+2020-09-05 15:53:03,512    DEBUG      server Установлено соединение с клиентом...
+2020-09-05 15:53:03,512    DEBUG      server Получено сообщение:
+{'action': 'presence', 'time': 1599310383.5124545, 'user': {'account_name': 'Guest'}}
+2020-09-05 15:53:03,512    DEBUG      server Запуск функции формирования ответа сервера...
+2020-09-05 15:53:03,512    DEBUG      server Сообщение клиента соответствует JIM-протоколу. Формируем положительный ответ.
+2020-09-05 15:53:03,512    DEBUG      server Сформирован ответ сервера:
+{'response': 200}
+2020-09-05 15:53:03,512    DEBUG      server Ответ выслан клиенту.
+2020-09-05 15:53:03,512    DEBUG      server Соединение с клиентом закрыто.
+2020-09-05 15:54:10,383    DEBUG      server Установлено соединение с клиентом...
+2020-09-05 15:54:10,387    DEBUG      log_decorator 
+Идет вызов функции.
+Имя: client_msg_func
+Позиционные аргументы: ()
+Именованные аргументы: {}
+Функция-родитель: main
+
+2020-09-05 15:54:10,387    DEBUG      server Получено сообщение:
+{'action': 'presence', 'time': 1599310450.3835244, 'user': {'account_name': 'Guest'}}
+2020-09-05 15:54:10,387    DEBUG      server Запуск функции формирования ответа сервера...
+2020-09-05 15:54:10,387    DEBUG      server Сообщение клиента соответствует JIM-протоколу. Формируем положительный ответ.
+2020-09-05 15:54:10,388    DEBUG      server Сформирован ответ сервера:
+{'response': 200}
+2020-09-05 15:54:10,388    DEBUG      server Ответ выслан клиенту.
+2020-09-05 15:54:10,388    DEBUG      server Соединение с клиентом закрыто.
+2020-09-05 15:54:27,751    DEBUG      server Установлено соединение с клиентом...
+2020-09-05 15:54:27,755    DEBUG      log_decorator 
+Идет вызов функции.
+Имя: client_msg_func
+Позиционные аргументы: ()
+Именованные аргументы: {}
+Функция-родитель: main
+
+2020-09-05 15:54:27,755    DEBUG      server Получено сообщение:
+{'action': 'presence', 'time': 1599310467.7515113, 'user': {'account_name': 'Guest'}}
+2020-09-05 15:54:27,756    DEBUG      server Запуск функции формирования ответа сервера...
+2020-09-05 15:54:27,756    DEBUG      server Сообщение клиента соответствует JIM-протоколу. Формируем положительный ответ.
+2020-09-05 15:54:27,756    DEBUG      server Сформирован ответ сервера:
+{'response': 200}
+2020-09-05 15:54:27,756    DEBUG      server Ответ выслан клиенту.
+2020-09-05 15:54:27,756    DEBUG      server Соединение с клиентом закрыто.
+2020-09-05 15:54:27,756    DEBUG      log_decorator 
+Идет вызов функции.
+Имя: ans_rework_func
+Позиционные аргументы: ({'response': 200},)
+Именованные аргументы: {}
+Функция-родитель: main
+
+2020-09-05 15:54:48,899    DEBUG      server Установлено соединение с клиентом...
+2020-09-05 15:54:48,903    DEBUG      log_decorator 
+Идет вызов функции.
+Имя: client_msg_func
+Позиционные аргументы: ()
+Именованные аргументы: {}
+Функция-родитель: main
+
+2020-09-05 15:54:48,904    DEBUG      server Получено сообщение:
+{'action': 'presence', 'time': 1599310488.8994644, 'user': {'account_name': 'Guest'}}
+2020-09-05 15:54:48,904    DEBUG      server Запуск функции формирования ответа сервера...
+2020-09-05 15:54:48,904    DEBUG      server Сообщение клиента соответствует JIM-протоколу. Формируем положительный ответ.
+2020-09-05 15:54:48,904    DEBUG      server Сформирован ответ сервера:
+{'response': 200}
+2020-09-05 15:54:48,904    DEBUG      server Ответ выслан клиенту.
+2020-09-05 15:54:48,904    DEBUG      server Соединение с клиентом закрыто.
+2020-09-05 15:54:48,904    DEBUG      log_decorator 
+Идет вызов функции.
+Имя: msg_recv_func
+Позиционные аргументы: (<socket.socket fd=376, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.0.107', 61344), raddr=('192.168.0.107', 8888)>,)
+Именованные аргументы: {}
+Функция-родитель: main
+
+2020-09-05 15:54:48,905    DEBUG      log_decorator 
+Идет вызов функции.
+Имя: ans_rework_func
+Позиционные аргументы: ({'response': 200},)
+Именованные аргументы: {}
+Функция-родитель: main
+
+2020-09-05 15:55:15,595    DEBUG      server Установлено соединение с клиентом...
+2020-09-05 15:55:15,599    DEBUG      log_decorator 
+Идет вызов функции.
+Имя: client_msg_func
+Позиционные аргументы: ()
+Именованные аргументы: {}
+Функция-родитель: main
+
+2020-09-05 15:55:15,599    DEBUG      server Получено сообщение:
+{'action': 'presence', 'time': 1599310515.5956335, 'user': {'account_name': 'Guest'}}
+2020-09-05 15:55:15,600    DEBUG      server Запуск функции формирования ответа сервера...
+2020-09-05 15:55:15,600    DEBUG      server Сообщение клиента соответствует JIM-протоколу. Формируем положительный ответ.
+2020-09-05 15:55:15,600    DEBUG      server Сформирован ответ сервера:
+{'response': 200}
+2020-09-05 15:55:15,600    DEBUG      server Ответ выслан клиенту.
+2020-09-05 15:55:15,600    DEBUG      log_decorator 
+Идет вызов функции.
+Имя: msg_send_func
+Позиционные аргументы: ({'action': 'presence', 'time': 1599310515.5956335, 'user': {'account_name': 'Guest'}}, <socket.socket fd=340, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.0.107', 61345), raddr=('192.168.0.107', 8888)>)
+Именованные аргументы: {}
+Функция-родитель: main
+
+2020-09-05 15:55:15,600    DEBUG      server Соединение с клиентом закрыто.
+2020-09-05 15:55:15,600    DEBUG      log_decorator 
+Идет вызов функции.
+Имя: msg_recv_func
+Позиционные аргументы: (<socket.socket fd=340, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.0.107', 61345), raddr=('192.168.0.107', 8888)>,)
+Именованные аргументы: {}
+Функция-родитель: main
+
+2020-09-05 15:55:15,601    DEBUG      log_decorator 
+Идет вызов функции.
+Имя: ans_rework_func
+Позиционные аргументы: ({'response': 200},)
+Именованные аргументы: {}
+Функция-родитель: main
+
+2020-09-05 15:56:01,415    INFO       server Запуск сервера...
+2020-09-05 15:56:01,416    DEBUG      server Проверка входных параметров: порт...
+2020-09-05 15:56:01,416    DEBUG      server Проверка порта прошла успешно
+2020-09-05 15:56:01,416    DEBUG      server Проверка входных параметров: хост...
+2020-09-05 15:56:01,416    DEBUG      server Проверка хоста прошла успешно
+2020-09-05 15:56:01,416    INFO       server Сервер запущен и готов принимать запрос клиента.
+Порт сервера: 8888
+Адрес сервера: 192.168.0.107
+2020-09-05 15:56:11,202    DEBUG      server Установлено соединение с клиентом...
+2020-09-05 15:56:11,206    DEBUG      log_decorator 
+Идет вызов функции.
+Имя: client_msg_func
+Позиционные аргументы: ()
+Именованные аргументы: {}
+Функция-родитель: main
+
+2020-09-05 15:56:11,206    DEBUG      log_decorator 
+Идет вызов функции.
+Имя: msg_send_func
+Позиционные аргументы: ({'action': 'presence', 'time': 1599310571.2020535, 'user': {'account_name': 'Guest'}}, <socket.socket fd=340, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.0.107', 61349), raddr=('192.168.0.107', 8888)>)
+Именованные аргументы: {}
+Функция-родитель: main
+
+2020-09-05 15:56:11,210    DEBUG      log_decorator 
+Идет вызов функции.
+Имя: msg_recv_func
+Позиционные аргументы: (<socket.socket fd=392, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.0.107', 8888), raddr=('192.168.0.107', 61349)>,)
+Именованные аргументы: {}
+Функция-родитель: main
+
+2020-09-05 15:56:11,210    DEBUG      server Получено сообщение:
+{'action': 'presence', 'time': 1599310571.2020535, 'user': {'account_name': 'Guest'}}
+2020-09-05 15:56:11,210    DEBUG      server Запуск функции формирования ответа сервера...
+2020-09-05 15:56:11,210    DEBUG      server Сообщение клиента соответствует JIM-протоколу. Формируем положительный ответ.
+2020-09-05 15:56:11,210    DEBUG      server Сформирован ответ сервера:
+{'response': 200}
+2020-09-05 15:56:11,211    DEBUG      log_decorator 
+Идет вызов функции.
+Имя: msg_send_func
+Позиционные аргументы: ({'response': 200}, <socket.socket fd=392, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.0.107', 8888), raddr=('192.168.0.107', 61349)>)
+Именованные аргументы: {}
+Функция-родитель: main
+
+2020-09-05 15:56:11,211    DEBUG      log_decorator 
+Идет вызов функции.
+Имя: msg_recv_func
+Позиционные аргументы: (<socket.socket fd=340, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.0.107', 61349), raddr=('192.168.0.107', 8888)>,)
+Именованные аргументы: {}
+Функция-родитель: main
+
+2020-09-05 15:56:11,211    DEBUG      server Ответ выслан клиенту.
+2020-09-05 15:56:11,211    DEBUG      server Соединение с клиентом закрыто.
+2020-09-05 15:56:11,211    DEBUG      log_decorator 
+Идет вызов функции.
+Имя: ans_rework_func
+Позиционные аргументы: ({'response': 200},)
+Именованные аргументы: {}
+Функция-родитель: main
+
+2020-09-05 15:57:18,415    INFO       server Запуск сервера...
+2020-09-05 15:57:18,415    DEBUG      server Проверка входных параметров: порт...
+2020-09-05 15:57:18,415    DEBUG      server Проверка порта прошла успешно
+2020-09-05 15:57:18,415    DEBUG      server Проверка входных параметров: хост...
+2020-09-05 15:57:18,415    DEBUG      server Проверка хоста прошла успешно
+2020-09-05 15:57:18,415    INFO       server Сервер запущен и готов принимать запрос клиента.
+Порт сервера: 8888
+Адрес сервера: 192.168.0.107
+2020-09-05 15:57:24,566    DEBUG      server Установлено соединение с клиентом...
+2020-09-05 15:57:24,571    DEBUG      log_decorator 
+Идет вызов функции.
+Имя: client_msg_func
+Позиционные аргументы: ()
+Именованные аргументы: {}
+Функция-родитель: main
+
+2020-09-05 15:57:24,571    DEBUG      log_decorator 
+Идет вызов функции.
+Имя: msg_send_func
+Позиционные аргументы: ({'action': 'presence', 'time': 1599310644.5669963, 'user': {'account_name': 'Guest'}}, <socket.socket fd=340, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.0.107', 61352), raddr=('192.168.0.107', 8888)>)
+Именованные аргументы: {}
+Функция-родитель: main
+
+2020-09-05 15:57:24,575    DEBUG      log_decorator 
+Идет вызов функции.
+Имя: msg_recv_func
+Позиционные аргументы: (<socket.socket fd=364, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.0.107', 8888), raddr=('192.168.0.107', 61352)>,)
+Именованные аргументы: {}
+Функция-родитель: main
+
+2020-09-05 15:57:24,575    DEBUG      server Получено сообщение:
+{'action': 'presence', 'time': 1599310644.5669963, 'user': {'account_name': 'Guest'}}
+2020-09-05 15:57:24,575    DEBUG      server Запуск функции формирования ответа сервера...
+2020-09-05 15:57:24,575    DEBUG      server Сообщение клиента соответствует JIM-протоколу. Формируем положительный ответ.
+2020-09-05 15:57:24,575    DEBUG      log_decorator 
+Идет вызов функции.
+Имя: server_ans_func
+Позиционные аргументы: ({'action': 'presence', 'time': 1599310644.5669963, 'user': {'account_name': 'Guest'}},)
+Именованные аргументы: {}
+Функция-родитель: main
+
+2020-09-05 15:57:24,575    DEBUG      server Сформирован ответ сервера:
+{'response': 200}
+2020-09-05 15:57:24,576    DEBUG      log_decorator 
+Идет вызов функции.
+Имя: msg_send_func
+Позиционные аргументы: ({'response': 200}, <socket.socket fd=364, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.0.107', 8888), raddr=('192.168.0.107', 61352)>)
+Именованные аргументы: {}
+Функция-родитель: main
+
+2020-09-05 15:57:24,576    DEBUG      log_decorator 
+Идет вызов функции.
+Имя: msg_recv_func
+Позиционные аргументы: (<socket.socket fd=340, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.0.107', 61352), raddr=('192.168.0.107', 8888)>,)
+Именованные аргументы: {}
+Функция-родитель: main
+
+2020-09-05 15:57:24,576    DEBUG      server Соединение с клиентом закрыто.
+2020-09-05 15:57:24,576    DEBUG      log_decorator 
+Идет вызов функции.
+Имя: ans_rework_func
+Позиционные аргументы: ({'response': 200},)
+Именованные аргументы: {}
+Функция-родитель: main
+
+2020-09-05 16:00:15,197    INFO       server Запуск сервера...
+2020-09-05 16:00:15,197    DEBUG      server Проверка входных параметров: порт...
+2020-09-05 16:00:15,197    DEBUG      server Проверка порта прошла успешно
+2020-09-05 16:00:15,197    DEBUG      server Проверка входных параметров: хост...
+2020-09-05 16:00:15,197    DEBUG      server Проверка хоста прошла успешно
+2020-09-05 16:00:15,198    INFO       server Сервер запущен и готов принимать запрос клиента.
+Порт сервера: 8888
+Адрес сервера: 192.168.0.107
+2020-09-05 16:00:21,184    DEBUG      server Установлено соединение с клиентом...
+2020-09-05 16:00:21,189    DEBUG      log_decorator 
+Идет вызов функции.
+Имя: client_msg_func
+Позиционные аргументы: ()
+Именованные аргументы: {}
+Функция-родитель: main
+
+2020-09-05 16:00:21,189    DEBUG      log_decorator 
+Идет вызов функции.
+Имя: msg_send_func
+Позиционные аргументы: ({'action': 'presence', 'time': 1599310821.18545, 'user': {'account_name': 'Guest'}}, <socket.socket fd=456, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.0.107', 61356), raddr=('192.168.0.107', 8888)>)
+Именованные аргументы: {}
+Функция-родитель: main
+
+2020-09-05 16:00:21,193    DEBUG      log_decorator 
+Идет вызов функции.
+Имя: msg_recv_func
+Позиционные аргументы: (<socket.socket fd=484, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.0.107', 8888), raddr=('192.168.0.107', 61356)>,)
+Именованные аргументы: {}
+Функция-родитель: main
+
+2020-09-05 16:00:21,193    DEBUG      server Получено сообщение:
+{'action': 'presence', 'time': 1599310821.18545, 'user': {'account_name': 'Guest'}}
+2020-09-05 16:00:21,193    DEBUG      server Запуск функции формирования ответа сервера...
+2020-09-05 16:00:21,193    DEBUG      server Сообщение клиента соответствует JIM-протоколу. Формируем положительный ответ.
+2020-09-05 16:00:21,193    DEBUG      log_decorator 
+Идет вызов функции.
+Имя: server_ans_func
+Позиционные аргументы: ({'action': 'presence', 'time': 1599310821.18545, 'user': {'account_name': 'Guest'}},)
+Именованные аргументы: {}
+Функция-родитель: main
+
+2020-09-05 16:00:21,193    DEBUG      server Сформирован ответ сервера:
+{'response': 200}
+2020-09-05 16:00:21,194    DEBUG      log_decorator 
+Идет вызов функции.
+Имя: msg_send_func
+Позиционные аргументы: ({'response': 200}, <socket.socket fd=484, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.0.107', 8888), raddr=('192.168.0.107', 61356)>)
+Именованные аргументы: {}
+Функция-родитель: main
+
+2020-09-05 16:00:21,194    DEBUG      log_decorator 
+Идет вызов функции.
+Имя: msg_recv_func
+Позиционные аргументы: (<socket.socket fd=456, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.0.107', 61356), raddr=('192.168.0.107', 8888)>,)
+Именованные аргументы: {}
+Функция-родитель: main
+
+2020-09-05 16:00:21,194    DEBUG      server Ответ выслан клиенту.
+2020-09-05 16:00:21,194    DEBUG      server Соединение с клиентом закрыто.
+2020-09-05 16:00:21,199    DEBUG      log_decorator 
+Идет вызов функции.
+Имя: ans_rework_func
+Позиционные аргументы: ({'response': 200},)
+Именованные аргументы: {}
+Функция-родитель: main
+
+2020-09-05 16:01:11,229    INFO       server Запуск сервера...
+2020-09-05 16:01:11,229    DEBUG      server Проверка входных параметров: порт...
+2020-09-05 16:01:11,229    DEBUG      server Проверка порта прошла успешно
+2020-09-05 16:01:11,229    DEBUG      server Проверка входных параметров: хост...
+2020-09-05 16:01:11,229    DEBUG      server Проверка хоста прошла успешно
+2020-09-05 16:01:11,230    INFO       server Сервер запущен и готов принимать запрос клиента.
+Порт сервера: 8888
+Адрес сервера: 192.168.0.107
+2020-09-05 16:01:20,916    DEBUG      server Установлено соединение с клиентом...
+2020-09-05 16:01:20,921    DEBUG      log_decorator 
+Идет вызов функции.
+Имя: client_msg_func
+Позиционные аргументы: ()
+Именованные аргументы: {}
+Функция-родитель: main
+
+2020-09-05 16:01:20,922    DEBUG      server Получено сообщение:
+{'action': 'presence', 'time': 1599310880.917777, 'user': {'account_name': 'Guest'}}
+2020-09-05 16:01:20,922    DEBUG      server Запуск функции формирования ответа сервера...
+2020-09-05 16:01:20,922    DEBUG      server Сообщение клиента соответствует JIM-протоколу. Формируем положительный ответ.
+2020-09-05 16:01:20,926    DEBUG      log_decorator 
+Идет вызов функции.
+Имя: server_ans_func
+Позиционные аргументы: ({'action': 'presence', 'time': 1599310880.917777, 'user': {'account_name': 'Guest'}},)
+Именованные аргументы: {}
+Функция-родитель: main
+
+2020-09-05 16:01:20,926    DEBUG      server Сформирован ответ сервера:
+{'response': 200}
+2020-09-05 16:01:20,926    DEBUG      server Ответ выслан клиенту.
+2020-09-05 16:01:20,926    DEBUG      server Соединение с клиентом закрыто.
+2020-09-05 16:01:20,931    DEBUG      log_decorator 
+Идет вызов функции.
+Имя: ans_rework_func
+Позиционные аргументы: ({'response': 200},)
+Именованные аргументы: {}
+Функция-родитель: main
+
+2020-09-05 16:02:10,654    INFO       server Запуск сервера...
+2020-09-05 16:02:10,654    DEBUG      server Проверка входных параметров: порт...
+2020-09-05 16:02:10,654    DEBUG      server Проверка порта прошла успешно
+2020-09-05 16:02:10,654    DEBUG      server Проверка входных параметров: хост...
+2020-09-05 16:02:10,654    DEBUG      server Проверка хоста прошла успешно
+2020-09-05 16:02:10,654    INFO       server Сервер запущен и готов принимать запрос клиента.
+Порт сервера: 8888
+Адрес сервера: 192.168.0.107
+2020-09-05 16:02:24,371    DEBUG      server Установлено соединение с клиентом...
+2020-09-05 16:02:24,376    DEBUG      log_decorator 
+Идет вызов функции.
+Имя: client_msg_func
+Позиционные аргументы: ()
+Именованные аргументы: {}
+Функция-родитель: main
+
+2020-09-05 16:02:24,377    DEBUG      server Получено сообщение:
+{'action': 'presence', 'time': 1599310944.3721385, 'user': {'account_name': 'Guest'}}
+2020-09-05 16:02:24,377    DEBUG      server Запуск функции формирования ответа сервера...
+2020-09-05 16:02:24,377    DEBUG      server Сообщение клиента соответствует JIM-протоколу. Формируем положительный ответ.
+2020-09-05 16:02:24,377    DEBUG      server Сформирован ответ сервера:
+{'response': 200}
+2020-09-05 16:02:24,377    DEBUG      server Ответ выслан клиенту.
+2020-09-05 16:02:24,377    DEBUG      server Соединение с клиентом закрыто.
+2020-09-05 16:02:24,380    DEBUG      log_decorator 
+Идет вызов функции.
+Имя: ans_rework_func
+Позиционные аргументы: ({'response': 200},)
+Именованные аргументы: {}
+Функция-родитель: main
+
+2020-09-05 16:04:56,388    INFO       server Запуск сервера...
+2020-09-05 16:04:56,388    DEBUG      server Проверка входных параметров: порт...
+2020-09-05 16:04:56,388    DEBUG      server Проверка порта прошла успешно
+2020-09-05 16:04:56,388    DEBUG      server Проверка входных параметров: хост...
+2020-09-05 16:04:56,389    DEBUG      server Проверка хоста прошла успешно
+2020-09-05 16:04:56,389    INFO       server Сервер запущен и готов принимать запрос клиента.
+Порт сервера: 8888
+Адрес сервера: 192.168.0.107
+2020-09-05 16:05:02,994    DEBUG      server Установлено соединение с клиентом...
+2020-09-05 16:05:02,998    DEBUG      log_decorator 
+Идет вызов функции.
+Имя: client_msg_func
+Позиционные аргументы: ()
+Именованные аргументы: {}
+Функция-родитель: main
+
+2020-09-05 16:05:02,998    DEBUG      log_decorator 
+Идет вызов функции.
+Имя: msg_send_func
+Позиционные аргументы: ({'action': 'presence', 'time': 1599311102.9944217, 'user': {'account_name': 'Guest'}}, <socket.socket fd=352, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.0.107', 61367), raddr=('192.168.0.107', 8888)>)
+Именованные аргументы: {}
+Функция-родитель: main
+
+2020-09-05 16:05:03,002    DEBUG      log_decorator 
+Идет вызов функции.
+Имя: msg_recv_func
+Позиционные аргументы: (<socket.socket fd=504, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.0.107', 8888), raddr=('192.168.0.107', 61367)>,)
+Именованные аргументы: {}
+Функция-родитель: main
+
+2020-09-05 16:05:03,002    DEBUG      server Получено сообщение:
+{'action': 'presence', 'time': 1599311102.9944217, 'user': {'account_name': 'Guest'}}
+2020-09-05 16:05:03,002    DEBUG      server Запуск функции формирования ответа сервера...
+2020-09-05 16:05:03,002    DEBUG      server Сообщение клиента соответствует JIM-протоколу. Формируем положительный ответ.
+2020-09-05 16:05:03,002    DEBUG      log_decorator 
+Идет вызов функции.
+Имя: server_ans_func
+Позиционные аргументы: ({'action': 'presence', 'time': 1599311102.9944217, 'user': {'account_name': 'Guest'}},)
+Именованные аргументы: {}
+Функция-родитель: main
+
+2020-09-05 16:05:03,002    DEBUG      server Сформирован ответ сервера:
+{'response': 200}
+2020-09-05 16:05:03,003    DEBUG      log_decorator 
+Идет вызов функции.
+Имя: msg_send_func
+Позиционные аргументы: ({'response': 200}, <socket.socket fd=504, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.0.107', 8888), raddr=('192.168.0.107', 61367)>)
+Именованные аргументы: {}
+Функция-родитель: main
+
+2020-09-05 16:05:03,003    DEBUG      log_decorator 
+Идет вызов функции.
+Имя: msg_recv_func
+Позиционные аргументы: (<socket.socket fd=352, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.0.107', 61367), raddr=('192.168.0.107', 8888)>,)
+Именованные аргументы: {}
+Функция-родитель: main
+
+2020-09-05 16:05:03,003    DEBUG      server Ответ выслан клиенту.
+2020-09-05 16:05:03,003    DEBUG      server Соединение с клиентом закрыто.
+2020-09-05 16:05:03,003    DEBUG      log_decorator 
+Идет вызов функции.
+Имя: ans_rework_func
+Позиционные аргументы: ({'response': 200},)
+Именованные аргументы: {}
+Функция-родитель: main
+
